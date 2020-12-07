@@ -11,7 +11,7 @@ Module Program
 
         Do
             '"Befüllung" des Zufallszahlenarrays
-            For index = 0 To 2
+            For index = 0 To zufallsZahlen.Length - 1
                 'Erstellung einer Hilfsvariablen
                 Dim temp As Integer
                 Do
@@ -24,7 +24,7 @@ Module Program
             Next
 
             '"Befüllung" des Benutzerzahlenarrays
-            For index = 0 To 2
+            For index = 0 To benutzerZahlen.Length - 1
                 Console.Write("Gib eine Zahl zwischen 1 und 10 ein: ")
                 benutzerZahlen(index) = Integer.Parse(Console.ReadLine())
             Next
