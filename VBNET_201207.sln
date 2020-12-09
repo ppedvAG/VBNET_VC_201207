@@ -19,11 +19,21 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Modul03.2_Methoden", "Metho
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Lab03_Tachenrechner", "Tachenrechner\Lab03_Tachenrechner.vbproj", "{59D66FA4-E456-4CA8-8961-CC898AA3B8A4}"
 EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Fahrzeugpark", "Fahrzeugpark\Fahrzeugpark.vbproj", "{21CFC302-5C56-4000-9527-D2E210711AC5}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Modul04.1f_Fahrzeugpark", "Fahrzeugpark\Modul04.1f_Fahrzeugpark.vbproj", "{21CFC302-5C56-4000-9527-D2E210711AC5}"
 EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TesteFahrzeugpark", "TesteFahrzeugpark\TesteFahrzeugpark.vbproj", "{3769FF29-1DAC-439F-8F52-DA427CB42E1D}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Modul04.2f_TesteFahrzeugpark", "TesteFahrzeugpark\Modul04.2f_TesteFahrzeugpark.vbproj", "{3769FF29-1DAC-439F-8F52-DA427CB42E1D}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WertVSRef", "WertVSRef\WertVSRef.vbproj", "{C6AD2832-A328-4191-BBAE-8D731D5678BB}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "WertVSRef", "WertVSRef\WertVSRef.vbproj", "{C6AD2832-A328-4191-BBAE-8D731D5678BB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul08.1_ExceptionHandling", "ExceptionHandling\Modul08.1_ExceptionHandling.vbproj", "{88938A31-62FC-4754-BA1B-8AC75DE09DB1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul08.2_UnitTest_Fahrzeugpark", "UnitTest_Fahrzeugpark\Modul08.2_UnitTest_Fahrzeugpark.vbproj", "{8B59DEBB-8C46-461F-90C6-8ADB9C0BB46B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul09.1_Delegates", "Delegates\Modul09.1_Delegates.vbproj", "{1B370412-D7AC-4706-B6BD-FD23E90356C0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modul09.2_FormsBeispiel", "FormsBeispiel\Modul09.2_FormsBeispiel.vbproj", "{3FE219DE-4816-4ED9-AC57-AEB12433CC37}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lab09_ButtonMovement", "ButtonMovement\Lab09_ButtonMovement.vbproj", "{81CE6C15-2132-4D36-ABF7-1F06636681AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{C6AD2832-A328-4191-BBAE-8D731D5678BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6AD2832-A328-4191-BBAE-8D731D5678BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6AD2832-A328-4191-BBAE-8D731D5678BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88938A31-62FC-4754-BA1B-8AC75DE09DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88938A31-62FC-4754-BA1B-8AC75DE09DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88938A31-62FC-4754-BA1B-8AC75DE09DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88938A31-62FC-4754-BA1B-8AC75DE09DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B59DEBB-8C46-461F-90C6-8ADB9C0BB46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B59DEBB-8C46-461F-90C6-8ADB9C0BB46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B59DEBB-8C46-461F-90C6-8ADB9C0BB46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B59DEBB-8C46-461F-90C6-8ADB9C0BB46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B370412-D7AC-4706-B6BD-FD23E90356C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B370412-D7AC-4706-B6BD-FD23E90356C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B370412-D7AC-4706-B6BD-FD23E90356C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B370412-D7AC-4706-B6BD-FD23E90356C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE219DE-4816-4ED9-AC57-AEB12433CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE219DE-4816-4ED9-AC57-AEB12433CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE219DE-4816-4ED9-AC57-AEB12433CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE219DE-4816-4ED9-AC57-AEB12433CC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CE6C15-2132-4D36-ABF7-1F06636681AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CE6C15-2132-4D36-ABF7-1F06636681AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CE6C15-2132-4D36-ABF7-1F06636681AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CE6C15-2132-4D36-ABF7-1F06636681AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

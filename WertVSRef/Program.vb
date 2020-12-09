@@ -80,6 +80,16 @@ Module Program
         WirklichAltern(Structperson)
         Console.WriteLine(Structperson.Name + ": " + Structperson.Alter.ToString())
 
+
+        Dim eingabe As String = Console.ReadLine()
+        Dim eingabeAlsInteger As Integer
+
+        If Integer.TryParse(eingabe, eingabeAlsInteger) Then
+
+            Console.WriteLine(eingabeAlsInteger * 2)
+
+        End If
+
     End Sub
 
     Sub Altern(person As C_Person)

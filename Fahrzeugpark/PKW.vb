@@ -45,4 +45,23 @@ Public Class PKW
         AnzahlRaeder -= 1
         Console.WriteLine("Da war ein Baum im Weg")
     End Sub
+
+    'Statische Methode zur Generierung von vollständig zufälligen PKWs
+    Private Shared generator As Random = New Random()
+    Public Shared Function ErstelleZufälligesFahzeug(Optional suffix As String = "") As PKW
+        Dim name As String = String.Empty
+        Select Case generator.Next(1, 5)
+            Case 1
+                name = "Audi"
+            Case 2
+                name = "BMW"
+            Case 3
+                name = "Mercedes"
+            Case 4
+                name = "VW"
+        End Select
+        name = $"{name}{suffix}"
+        Return New PKW(name, generator.Next(150, 300), generator.Next(1500, 30000), generator.Next(1, 6))
+
+    End Function
 End Class

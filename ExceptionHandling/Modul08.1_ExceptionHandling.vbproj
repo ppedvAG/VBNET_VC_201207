@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TesteFahrzeugpark</RootNamespace>
+    <RootNamespace>ExceptionHandling</RootNamespace>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Fahrzeugpark\Fahrzeugpark.vbproj" />
-  </ItemGroup>
 
 </Project>
